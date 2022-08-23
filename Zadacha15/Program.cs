@@ -2,9 +2,9 @@
 //обозначающую день недели, и проверяет, является ли этот день выходным.
 
 Console.WriteLine("Введите число от 1 до 7.");
-int numberDay = Convert.ToInt32(Console.ReadLine());
+int DayWeek = Convert.ToInt32(Console.ReadLine());
 
-if (numberDay == 6 || numberDay == 7)
+if (DayWeek == 6 || DayWeek == 7)
 {
     Console.WriteLine ("Да");
 }
